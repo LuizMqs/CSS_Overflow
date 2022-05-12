@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Overflow</title>
+</head>
+<body>
+    <div class="box visible">
+        <h1 class="title">TEXTO ALEATÓRIO 1</h1>
+        <p>
+            Lorem ipsum fames torquent ut pellentesque ultrices amet aliquam bibendum id, inceptos nisl mattis mi consequat hendrerit tortor id curabitur donec, blandit quisque nostra elementum quisque nisl interdum eu hac. 
+            eget netus malesuada habitant neque nunc pharetra facilisis nullam dui elit, nisl curabitur molestie libero donec ut molestie sagittis nibh blandit, diam ligula sagittis fermentum mauris tempus varius fusce feugiat. 
+            ultricies faucibus venenatis ut himenaeos tempus et libero urna in ornare, suscipit eu cursus ut elementum ultricies lacinia rhoncus. 
+            viverra aliquam praesent donec suspendisse nibh suspendisse, lacus vivamus neque lorem imperdiet eros ut, commodo tincidunt ipsum quam metus. 
+            
+            Semper ut velit luctus nisi diam urna nec integer auctor, sit porttitor lorem nisl aliquet diam duis aenean euismod amet, sociosqu nisi vitae tristique donec quam semper libero. 
+            curae imperdiet tellus adipiscing auctor felis vulputate nostra inceptos dui libero, risus libero nec id neque hac facilisis a litora, sollicitudin himenaeos nam enim vulputate aptent varius sapien sociosqu. 
+            ullamcorper consectetur odio tristique suscipit enim dapibus eget, vulputate primis habitant imperdiet risus viverra feugiat massa, accumsan eleifend quisque vitae eros neque. 
+            volutpat nec posuere velit dolor dapibus himenaeos, senectus aliquam orci platea mollis curae hendrerit, imperdiet eros ullamcorper proin nunc. 
+            
+            Posuere leo senectus ullamcorper faucibus habitasse ultricies etiam semper neque, iaculis posuere proin ad quam aliquam nibh nisi habitant per, aenean erat lorem bibendum scelerisque vitae sit magna. 
+            curabitur sit nunc sem malesuada nisl etiam mauris ultrices augue faucibus platea erat, bibendum elit proin inceptos tortor arcu sollicitudin fringilla himenaeos phasellus eget. 
+            mauris etiam erat turpis tristique senectus vestibulum libero felis libero, taciti imperdiet sapien bibendum rutrum per inceptos magna duis scelerisque, facilisis rutrum orci elementum turpis litora consectetur nunc. 
+            nullam curabitur vehicula inceptos non etiam vitae dictumst curae nunc convallis vitae senectus lacus nunc, augue eleifend lorem neque imperdiet nisl tempor nibh eu fusce interdum nisi. 
+           
+            Proin purus enim malesuada ut accumsan sem auctor molestie lorem orci accumsan inceptos senectus, auctor hac semper cras porta netus taciti ut amet dapibus sed himenaeos. 
+            arcu netus vulputate pulvinar viverra vulputate morbi maecenas tincidunt at, tortor consequat fermentum placerat per ultricies aptent sollicitudin, egestas massa semper convallis neque tortor platea per. 
+            hac nec quisque fusce commodo himenaeos aenean lacinia, volutpat condimentum phasellus aenean semper est, tellus himenaeos at quis diam vehicula. 
+            facilisis aliquet malesuada placerat in nam platea, ante urna varius ut semper ornare torquent, augue class fusce magna potenti. 
+            
+            Lacus a tristique lorem risus ante viverra amet, imperdiet proin suscipit netus vulputate convallis dapibus, justo varius nulla congue ipsum lorem. 
+            semper cursus feugiat eros, sapien aliquam. 
+            pulvinar posuere volutpat habitant accumsan placerat amet eleifend cras lacus, accumsan praesent sagittis ullamcorper vehicula ut eget metus varius nunc, quam rutrum pellentesque vel nunc himenaeos consectetur conubia. 
+            habitant amet vulputate ad commodo hendrerit augue elementum tempor, vehicula lacinia dictum a porta in enim, vel lacinia euismod curabitur luctus a tristique. 
+            semper sodales sit class sem sapien sodales facilisis pulvinar enim, hendrerit scelerisque aptent euismod ligula maecenas nunc potenti quisque iaculis, maecenas platea litora potenti platea habitasse nisl habitant.   
+        </p>
+    </div>
+    <div class="box hidden">
+        <h1 class="title">TEXTO ALEATÓRIO 2</h1>
+        <p>
+            Lorem ipsum fames torquent ut pellentesque ultrices amet aliquam bibendum id, inceptos nisl mattis mi consequat hendrerit tortor id curabitur donec, blandit quisque nostra elementum quisque nisl interdum eu hac. 
+            eget netus malesuada habitant neque nunc pharetra facilisis nullam dui elit, nisl curabitur molestie libero donec ut molestie sagittis nibh blandit, diam ligula sagittis fermentum mauris tempus varius fusce feugiat. 
+            ultricies faucibus venenatis ut himenaeos tempus et libero urna in ornare, suscipit eu cursus ut elementum ultricies lacinia rhoncus. 
+            viverra aliquam praesent donec suspendisse nibh suspendisse, lacus vivamus neque lorem imperdiet eros ut, commodo tincidunt ipsum quam metus. 
+            
+            Semper ut velit luctus nisi diam urna nec integer auctor, sit porttitor lorem nisl aliquet diam duis aenean euismod amet, sociosqu nisi vitae tristique donec quam semper libero. 
+            curae imperdiet tellus adipiscing auctor felis vulputate nostra inceptos dui libero, risus libero nec id neque hac facilisis a litora, sollicitudin himenaeos nam enim vulputate aptent varius sapien sociosqu. 
+            ullamcorper consectetur odio tristique suscipit enim dapibus eget, vulputate primis habitant imperdiet risus viverra feugiat massa, accumsan eleifend quisque vitae eros neque. 
+            volutpat nec posuere velit dolor dapibus himenaeos, senectus aliquam orci platea mollis curae hendrerit, imperdiet eros ullamcorper proin nunc. 
+            
+            Posuere leo senectus ullamcorper faucibus habitasse ultricies etiam semper neque, iaculis posuere proin ad quam aliquam nibh nisi habitant per, aenean erat lorem bibendum scelerisque vitae sit magna. 
+            curabitur sit nunc sem malesuada nisl etiam mauris ultrices augue faucibus platea erat, bibendum elit proin inceptos tortor arcu sollicitudin fringilla himenaeos phasellus eget. 
+            mauris etiam erat turpis tristique senectus vestibulum libero felis libero, taciti imperdiet sapien bibendum rutrum per inceptos magna duis scelerisque, facilisis rutrum orci elementum turpis litora consectetur nunc. 
+            nullam curabitur vehicula inceptos non etiam vitae dictumst curae nunc convallis vitae senectus lacus nunc, augue eleifend lorem neque imperdiet nisl tempor nibh eu fusce interdum nisi. 
+           
+            Proin purus enim malesuada ut accumsan sem auctor molestie lorem orci accumsan inceptos senectus, auctor hac semper cras porta netus taciti ut amet dapibus sed himenaeos. 
+            arcu netus vulputate pulvinar viverra vulputate morbi maecenas tincidunt at, tortor consequat fermentum placerat per ultricies aptent sollicitudin, egestas massa semper convallis neque tortor platea per. 
+            hac nec quisque fusce commodo himenaeos aenean lacinia, volutpat condimentum phasellus aenean semper est, tellus himenaeos at quis diam vehicula. 
+            facilisis aliquet malesuada placerat in nam platea, ante urna varius ut semper ornare torquent, augue class fusce magna potenti. 
+            
+            Lacus a tristique lorem risus ante viverra amet, imperdiet proin suscipit netus vulputate convallis dapibus, justo varius nulla congue ipsum lorem. 
+            semper cursus feugiat eros, sapien aliquam. 
+            pulvinar posuere volutpat habitant accumsan placerat amet eleifend cras lacus, accumsan praesent sagittis ullamcorper vehicula ut eget metus varius nunc, quam rutrum pellentesque vel nunc himenaeos consectetur conubia. 
+            habitant amet vulputate ad commodo hendrerit augue elementum tempor, vehicula lacinia dictum a porta in enim, vel lacinia euismod curabitur luctus a tristique. 
+            semper sodales sit class sem sapien sodales facilisis pulvinar enim, hendrerit scelerisque aptent euismod ligula maecenas nunc potenti quisque iaculis, maecenas platea litora potenti platea habitasse nisl habitant.   
+        </p>
+    </div> 
+    <div class="box scroll">
+        <h1 class="title">TEXTO ALEATÓRIO 3</h1>
+        <p>
+            Lorem ipsum fames torquent ut pellentesque ultrices amet aliquam bibendum id, inceptos nisl mattis mi consequat hendrerit tortor id curabitur donec, blandit quisque nostra elementum quisque nisl interdum eu hac. 
+            eget netus malesuada habitant neque nunc pharetra facilisis nullam dui elit, nisl curabitur molestie libero donec ut molestie sagittis nibh blandit, diam ligula sagittis fermentum mauris tempus varius fusce feugiat. 
+            ultricies faucibus venenatis ut himenaeos tempus et libero urna in ornare, suscipit eu cursus ut elementum ultricies lacinia rhoncus. 
+            viverra aliquam praesent donec suspendisse nibh suspendisse, lacus vivamus neque lorem imperdiet eros ut, commodo tincidunt ipsum quam metus. 
+            
+            Semper ut velit luctus nisi diam urna nec integer auctor, sit porttitor lorem nisl aliquet diam duis aenean euismod amet, sociosqu nisi vitae tristique donec quam semper libero. 
+            curae imperdiet tellus adipiscing auctor felis vulputate nostra inceptos dui libero, risus libero nec id neque hac facilisis a litora, sollicitudin himenaeos nam enim vulputate aptent varius sapien sociosqu. 
+            ullamcorper consectetur odio tristique suscipit enim dapibus eget, vulputate primis habitant imperdiet risus viverra feugiat massa, accumsan eleifend quisque vitae eros neque. 
+            volutpat nec posuere velit dolor dapibus himenaeos, senectus aliquam orci platea mollis curae hendrerit, imperdiet eros ullamcorper proin nunc. 
+            
+            Posuere leo senectus ullamcorper faucibus habitasse ultricies etiam semper neque, iaculis posuere proin ad quam aliquam nibh nisi habitant per, aenean erat lorem bibendum scelerisque vitae sit magna. 
+            curabitur sit nunc sem malesuada nisl etiam mauris ultrices augue faucibus platea erat, bibendum elit proin inceptos tortor arcu sollicitudin fringilla himenaeos phasellus eget. 
+            mauris etiam erat turpis tristique senectus vestibulum libero felis libero, taciti imperdiet sapien bibendum rutrum per inceptos magna duis scelerisque, facilisis rutrum orci elementum turpis litora consectetur nunc. 
+            nullam curabitur vehicula inceptos non etiam vitae dictumst curae nunc convallis vitae senectus lacus nunc, augue eleifend lorem neque imperdiet nisl tempor nibh eu fusce interdum nisi. 
+           
+            Proin purus enim malesuada ut accumsan sem auctor molestie lorem orci accumsan inceptos senectus, auctor hac semper cras porta netus taciti ut amet dapibus sed himenaeos. 
+            arcu netus vulputate pulvinar viverra vulputate morbi maecenas tincidunt at, tortor consequat fermentum placerat per ultricies aptent sollicitudin, egestas massa semper convallis neque tortor platea per. 
+            hac nec quisque fusce commodo himenaeos aenean lacinia, volutpat condimentum phasellus aenean semper est, tellus himenaeos at quis diam vehicula. 
+            facilisis aliquet malesuada placerat in nam platea, ante urna varius ut semper ornare torquent, augue class fusce magna potenti. 
+            
+            Lacus a tristique lorem risus ante viverra amet, imperdiet proin suscipit netus vulputate convallis dapibus, justo varius nulla congue ipsum lorem. 
+            semper cursus feugiat eros, sapien aliquam. 
+            pulvinar posuere volutpat habitant accumsan placerat amet eleifend cras lacus, accumsan praesent sagittis ullamcorper vehicula ut eget metus varius nunc, quam rutrum pellentesque vel nunc himenaeos consectetur conubia. 
+            habitant amet vulputate ad commodo hendrerit augue elementum tempor, vehicula lacinia dictum a porta in enim, vel lacinia euismod curabitur luctus a tristique. 
+            semper sodales sit class sem sapien sodales facilisis pulvinar enim, hendrerit scelerisque aptent euismod ligula maecenas nunc potenti quisque iaculis, maecenas platea litora potenti platea habitasse nisl habitant.   
+        </p>
+    </div>
+    <div class="box auto">
+        <h1 class="title">TEXTO ALEATÓRIO 4</h1>
+        <p>
+            Lorem ipsum fames torquent ut pellentesque ultrices amet aliquam bibendum id, inceptos nisl mattis mi consequat hendrerit tortor id curabitur donec, blandit quisque nostra elementum quisque nisl interdum eu hac. 
+            eget netus malesuada habitant neque nunc pharetra facilisis nullam dui elit, nisl curabitur molestie libero donec ut molestie sagittis nibh blandit, diam ligula sagittis fermentum mauris tempus varius fusce feugiat. 
+            ultricies faucibus venenatis ut himenaeos tempus et libero urna in ornare, suscipit eu cursus ut elementum ultricies lacinia rhoncus. 
+            viverra aliquam praesent donec suspendisse nibh suspendisse, lacus vivamus neque lorem imperdiet eros ut, commodo tincidunt ipsum quam metus. 
+            
+            Semper ut velit luctus nisi diam urna nec integer auctor, sit porttitor lorem nisl aliquet diam duis aenean euismod amet, sociosqu nisi vitae tristique donec quam semper libero. 
+            curae imperdiet tellus adipiscing auctor felis vulputate nostra inceptos dui libero, risus libero nec id neque hac facilisis a litora, sollicitudin himenaeos nam enim vulputate aptent varius sapien sociosqu. 
+            ullamcorper consectetur odio tristique suscipit enim dapibus eget, vulputate primis habitant imperdiet risus viverra feugiat massa, accumsan eleifend quisque vitae eros neque. 
+            volutpat nec posuere velit dolor dapibus himenaeos, senectus aliquam orci platea mollis curae hendrerit, imperdiet eros ullamcorper proin nunc. 
+            
+            Posuere leo senectus ullamcorper faucibus habitasse ultricies etiam semper neque, iaculis posuere proin ad quam aliquam nibh nisi habitant per, aenean erat lorem bibendum scelerisque vitae sit magna. 
+            curabitur sit nunc sem malesuada nisl etiam mauris ultrices augue faucibus platea erat, bibendum elit proin inceptos tortor arcu sollicitudin fringilla himenaeos phasellus eget. 
+            mauris etiam erat turpis tristique senectus vestibulum libero felis libero, taciti imperdiet sapien bibendum rutrum per inceptos magna duis scelerisque, facilisis rutrum orci elementum turpis litora consectetur nunc. 
+            nullam curabitur vehicula inceptos non etiam vitae dictumst curae nunc convallis vitae senectus lacus nunc, augue eleifend lorem neque imperdiet nisl tempor nibh eu fusce interdum nisi. 
+           
+            Proin purus enim malesuada ut accumsan sem auctor molestie lorem orci accumsan inceptos senectus, auctor hac semper cras porta netus taciti ut amet dapibus sed himenaeos. 
+            arcu netus vulputate pulvinar viverra vulputate morbi maecenas tincidunt at, tortor consequat fermentum placerat per ultricies aptent sollicitudin, egestas massa semper convallis neque tortor platea per. 
+            hac nec quisque fusce commodo himenaeos aenean lacinia, volutpat condimentum phasellus aenean semper est, tellus himenaeos at quis diam vehicula. 
+            facilisis aliquet malesuada placerat in nam platea, ante urna varius ut semper ornare torquent, augue class fusce magna potenti. 
+            
+            Lacus a tristique lorem risus ante viverra amet, imperdiet proin suscipit netus vulputate convallis dapibus, justo varius nulla congue ipsum lorem. 
+            semper cursus feugiat eros, sapien aliquam. 
+            pulvinar posuere volutpat habitant accumsan placerat amet eleifend cras lacus, accumsan praesent sagittis ullamcorper vehicula ut eget metus varius nunc, quam rutrum pellentesque vel nunc himenaeos consectetur conubia. 
+            habitant amet vulputate ad commodo hendrerit augue elementum tempor, vehicula lacinia dictum a porta in enim, vel lacinia euismod curabitur luctus a tristique. 
+            semper sodales sit class sem sapien sodales facilisis pulvinar enim, hendrerit scelerisque aptent euismod ligula maecenas nunc potenti quisque iaculis, maecenas platea litora potenti platea habitasse nisl habitant.   
+        </p>
+    </div>
+</body>
+</html>
